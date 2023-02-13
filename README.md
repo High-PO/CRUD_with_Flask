@@ -23,7 +23,7 @@ table = dynamodb.Table('test-dynamo')
 ```
 {
     "Name": "High-PO",
-    "PN": 010-1234-5678
+    "PN": "010-1234-5678"
 }
 ```
 
@@ -31,7 +31,7 @@ table = dynamodb.Table('test-dynamo')
 ```
 {
     "Name": "High-PO",
-    "PN": 010-1234-5678,
+    "PN": "010-1234-5678",
     "Zipcode": 12345
 }
 ```
@@ -39,7 +39,7 @@ table = dynamodb.Table('test-dynamo')
 ```
 {
     "Name": "High-PO",
-    "PN": 010-1234-5678,
+    "PN": "010-1234-5678",
     "Zipcode": 67890
 }
 ```
@@ -47,6 +47,6 @@ table = dynamodb.Table('test-dynamo')
 ```
 {
     "Name": "High-PO",
-    "PN": 010-1234-5678
+    "PN": "010-1234-5678"
 }
 ```
