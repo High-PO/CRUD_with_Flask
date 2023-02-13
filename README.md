@@ -23,7 +23,7 @@ table = dynamodb.Table('test-dynamo')
 ```
 {
     "Name": "High-PO",
-    "PN": "010-1234-5678"
+    "PN": 010-1234-5678
 }
 ```
 
@@ -31,22 +31,22 @@ table = dynamodb.Table('test-dynamo')
 ```
 {
     "Name": "High-PO",
-    "PN": "010-1234-5678",
-    "Zipcode": "12345"
+    "PN": 010-1234-5678,
+    "Zipcode": 12345
 }
 ```
 ## PUT Method
 ```
 {
     "Name": "High-PO",
-    "PN": "010-1234-5678",
-    "Zipcode": "67890"
+    "PN": 010-1234-5678,
+    "Zipcode": 67890
 }
 ```
 ## DELETE Method
 ```
 {
     "Name": "High-PO",
-    "PN": "010-1234-5678"
+    "PN": 010-1234-5678
 }
 ```
