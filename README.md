@@ -15,3 +15,38 @@ table = dynamodb.Table('test-dynamo')
 
 - `'ap-northeast-2'` -> your region name
 - `'test-dynamo'` -> your DynamoDB name
+
+# Example
+
+## GET Method
+
+```
+{
+    "Name": "High-PO",
+    "PN": "010-1234-5678"
+}
+```
+
+## POST Method
+```
+{
+    "Name": "High-PO",
+    "PN": "010-1234-5678",
+    "Zipcode": "12345"
+}
+```
+## PUT Method
+```
+{
+    "Name": "High-PO",
+    "PN": "010-1234-5678",
+    "Zipcode": "67890"
+}
+```
+## DELETE Method
+```
+{
+    "Name": "High-PO",
+    "PN": "010-1234-5678"
+}
+```
