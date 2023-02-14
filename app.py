@@ -86,4 +86,11 @@ def delte_record():
     )
     return ("Delete Complete!!")
 
+# Healthcheck part
+@app.route('/health', methods=['GET'])
+def health_check():
+    health = '{ "status" : 200 } '
+    health_data = json.loads(health)
+    return (health_data)
+
 app.run(host='0.0.0.0', port=8080, debug=True)

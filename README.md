@@ -50,3 +50,17 @@ table = dynamodb.Table('test-dynamo')
     "PN": "010-1234-5678"
 }
 ```
+
+# Health check path
+
+## path
+```
+/health
+```
+
+## retrun value
+```
+{
+    "status" : 200
+}
+```
