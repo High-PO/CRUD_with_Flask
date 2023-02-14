@@ -58,7 +58,7 @@ table = dynamodb.Table('test-dynamo')
 /health
 ```
 
-## retrun value
+## return value
 ```
 {
     "status" : 200
